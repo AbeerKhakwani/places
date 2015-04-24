@@ -57,20 +57,16 @@ $app->get("/", function()
 
 $app->post("/places_list", function()
 {
-
-
     if (
         (empty($_POST['city'])) ||
         (empty($_POST['state'])) ||
         (empty($_POST['year']))
         ) {
 
-
-        return "error " . "<a href='/'>please enter an item</a>";
+    return "error " . "<a href='/'>please enter an item</a>";
 
     }
 
-    
     else {
 
         $places = new Places($_POST['city'], $_POST['state'], $_POST['year']);
