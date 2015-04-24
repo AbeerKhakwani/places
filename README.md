@@ -8,7 +8,7 @@ March 3 2015
 
 Description
 
-This app displays cd's and ther info. Learning php object oriented
+This app displays takes in the info for places you have been and displays them.
 
 Use and Editing
 
